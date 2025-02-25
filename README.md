@@ -38,18 +38,10 @@ Command may look like: ```cd 'C:\Users\.....\Indian-Sign-Language-Recognition\Co
 
 6. ```python main.py```
 
-A tkinter window like this will open.
-<p align="center">
-<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/login.png" width="400" height="410">
-  <br>
- </p>
+A tkinter window will open
 
 7. Create your account to access the system.
 8. Now, the main tkinter window will open.
-<p align="center">
-<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/main.png" width="400" height="410">
-   <br>
- </p>
 9. Click on the desired button to access the respective service.
 
 #### To create your own recognition system
@@ -90,20 +82,11 @@ In this phase, various classifiers are used in order to check the best classifie
 + K-Nearest Neighbours (KNN)
 + Support Vector Machine (SVM)
 + Convolution Neural Network (CNN)
-
-#### Accuracy Plot
-The accuracy rate of different classifiers obtained are shown below:
-<p align="center">
-  <br>
-<img align="center" src="https://github.com/shag527/Indian-Sign-Language-Recognition/blob/master/Images/acc.png">
- </p>
-
+  
 ### Output
 The predicted labels are shown in the form of text as well as speech using the python text to speech conversion library, Pyttsx3.
 
 ### Reverse Sign Recognition
 Dual mode of communication is implemented. The spoken word is taken as input and the corresponding sign images are shown in sequence. Google speech API is used for this purpose.
 
-### Credits
-+ [Bag of Visual Words (BOVW)](https://medium.com/@aybukeyalcinerr/bag-of-visual-words-bovw-db9500331b2f)
-+ [Image Classification with Convolutional Neural Networks](https://medium.com/@ksusorokina/image-classification-with-convolutional-neural-networks-496815db12a8)
+
