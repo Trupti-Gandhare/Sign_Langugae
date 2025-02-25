@@ -83,11 +83,9 @@ def loggin():
                                relief=SUNKEN)
                 label3.pack(side=TOP, fill=X)
 
-                label4 = Label(f2, text="                            Indian Sign Language Recognition System", font=("arial", 10, "bold"), bg="grey16",
-                               fg="white")
+                label4 = Label(f2, text="                                                        HandTalk Decoder", font=("arial", 10, "bold"), bg="grey16", fg="white")
                 label4.pack(side=BOTTOM, fill=X)
-                statusbar = Label(f1, text="                            Indian Sign Language Recognition System", font=("arial", 8, "bold"),
-                                  bg="grey16", fg="white", relief=SUNKEN, anchor=W)
+                statusbar = Label(f1, text="                                                        HandTalk Decoder", font=("arial", 8, "bold"),bg="grey16", fg="white", relief=SUNKEN, anchor=W)
                 statusbar.pack(side=BOTTOM, fill=X)
 
                 class AnimatedGIF(Label, object):
@@ -174,8 +172,7 @@ def loggin():
                     l = AnimatedGIF(f1, "files/gif2.gif")
                     l.pack()
 
-                label4 = Label(f3, text="                            Indian Sign Language Recognition System", font=("arial", 10, "bold"), bg="grey16",
-                               fg="white")
+                label4 = Label(f3, text="                                                        HandTalk Decoder", font=("arial", 10, "bold"), bg="grey16",fg="white")
                 label4.pack(side=BOTTOM, fill=X)
 
                 # =========================Main Buttons=========================================
@@ -193,16 +190,15 @@ def loggin():
 
                 label10 = Label(f4, text="", font=("arial", 20, "bold"), bg="grey16", fg="white")
                 label10.pack(side=TOP, fill=X)
-                label11 = Label(f4, text="     Indian Sign Language Recognition System", font=("arial", 10, "bold"), bg="grey16",
-                                fg="white")
+                label11 = Label(f4, text="                                                        HandTalk Decoder", font=("times of roman", 10, "bold"), bg="grey16",fg="white")
                 label11.pack(side=BOTTOM, fill=X)
 
-                label10 = Label(f4, text=" Information Will be Added Soon!", font=("arial", 12, "bold"))
+                label10 = Label(f4, text="Vist our Website", font=("arial", 12, "bold"))
                 label10.place(x=75, y=150)
 
                 def swap4(frame):
                     frame.tkraise()
-                    statusbar['text'] = '                            Indian Sign Language Recognition System'
+                    statusbar['text'] = '                                                        HandTalk Decoder'
 
                 btn4w2 = ttk.Button(f4, text="Back	", command=lambda: swap4(f1))
                 btn4w2.place(x=3, y=40, width=50, height=30)
