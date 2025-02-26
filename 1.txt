@@ -1,0 +1,13 @@
+conda create --name sign python=3.7.1
+conda activate sign
+cd D:\Indian-Sign-Language-Recognition
+pip install -r requirements.txt
+cd D:\Indian-Sign-Language-Recognition\Indian-Sign-Language-Recognition-master\Code\Predict signs
+pip install protobuf==3.20.3
+set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+
+
+#for pyaudio
+pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+pip install pipwin
+pipwin install PyAudio (or) pip install PyAudio
